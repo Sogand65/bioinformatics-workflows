@@ -1,0 +1,10 @@
+trust4_quickcheck.ipynb
+.DS_Store
+bcr-bulk-demo/data/raw/
+bcr-bulk-demo/data/processed/
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.bam
+
