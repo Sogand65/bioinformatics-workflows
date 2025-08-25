@@ -1,0 +1,36 @@
+[INFO] Running TRUST4 on ERR1898482
+[Sun Aug 24 15:29:09 2025] TRUST4 v1.1.6.1-r599 begins.
+[Sun Aug 24 15:29:09 2025] SYSTEM CALL: /Users/sogand/miniforge3/envs/bcr-demo/bin/fastq-extractor -t 1 -f /Users/sogand/Desktop/bioinformatics/TRUST4/hg38_bcrtcr.fa -o data/processed/ERR1898482_toassemble  -1 data/raw/ERR1898482_1.fastq.gz -2 data/raw/ERR1898482_2.fastq.gz
+[Sun Aug 24 15:29:09 2025] Start to extract candidate reads from read files.
+[Sun Aug 24 15:33:35 2025] Finish extracting reads.
+[Sun Aug 24 15:33:35 2025] SYSTEM CALL: /Users/sogand/miniforge3/envs/bcr-demo/bin/trust4  -f /Users/sogand/Desktop/bioinformatics/TRUST4/hg38_bcrtcr.fa -o data/processed/ERR1898482 -1 data/processed/ERR1898482_toassemble_1.fq -2 data/processed/ERR1898482_toassemble_2.fq
+[Sun Aug 24 15:33:35 2025] Start to assemble reads.
+[Sun Aug 24 15:33:35 2025] Read in and count kmers for 100000 reads.
+[Sun Aug 24 15:33:35 2025] Read in and count kmers for 200000 reads.
+[Sun Aug 24 15:33:35 2025] Read in and count kmers for 300000 reads.
+[Sun Aug 24 15:33:35 2025] Read in and count kmers for 400000 reads.
+[Sun Aug 24 15:33:35 2025] Read in and count kmers for 500000 reads.
+[Sun Aug 24 15:33:36 2025] Found 498393 reads.
+[Sun Aug 24 15:33:36 2025] Finish sorting the reads.
+[Sun Aug 24 15:33:40 2025] Finish rough annotations.
+[Sun Aug 24 15:33:40 2025] Processed 100000 reads (15990 are used for assembly).
+[Sun Aug 24 15:33:40 2025] Processed 200000 reads (33309 are used for assembly).
+[Sun Aug 24 15:33:40 2025] Processed 300000 reads (69556 are used for assembly).
+[Sun Aug 24 15:33:40 2025] Processed 400000 reads (124548 are used for assembly).
+[Sun Aug 24 15:33:41 2025] Assembled 169540 reads.
+[Sun Aug 24 15:33:41 2025] Try to rescue 2996 reads for assembly.
+[Sun Aug 24 15:33:41 2025] Rescued 1246 reads.
+[Sun Aug 24 15:33:42 2025] Processed 100000 reads for extension.
+[Sun Aug 24 15:33:42 2025] Extend assemblies by mate pair information.
+[Sun Aug 24 15:33:43 2025] Remove redundant assemblies.
+[Sun Aug 24 15:33:43 2025] Finish assembly.
+[Sun Aug 24 15:33:43 2025] SYSTEM CALL: /Users/sogand/miniforge3/envs/bcr-demo/bin/annotator -f /Users/sogand/Desktop/bioinformatics/TRUST4/human_IMGT+C.fa -a data/processed/ERR1898482_final.out -t 1 -o data/processed/ERR1898482  -r data/processed/ERR1898482_assembled_reads.fa --airrAlignment > data/processed/ERR1898482_annot.fa
+[Sun Aug 24 15:33:43 2025] Start to annotate assemblies.
+[Sun Aug 24 15:33:47 2025] Start to realign reads for CDR3 analysis.
+[Sun Aug 24 15:33:48 2025] Realigned 100000 reads.
+[Sun Aug 24 15:33:49 2025] Compute CDR3 abundance.
+[Sun Aug 24 15:33:49 2025] Finish annotation.
+[Sun Aug 24 15:33:49 2025] SYSTEM CALL: perl /Users/sogand/miniforge3/envs/bcr-demo/bin/trust-simplerep.pl data/processed/ERR1898482_cdr3.out  > data/processed/ERR1898482_report.tsv
+[Sun Aug 24 15:33:49 2025] SYSTEM CALL: perl /Users/sogand/miniforge3/envs/bcr-demo/bin/trust-airr.pl data/processed/ERR1898482_report.tsv data/processed/ERR1898482_annot.fa --airr-align data/processed/ERR1898482_airr_align.tsv > data/processed/ERR1898482_airr.tsv
+[Sun Aug 24 15:33:49 2025] TRUST4 finishes.
+[DONE] TRUST4 finished. Outputs in data/processed/ERR1898482

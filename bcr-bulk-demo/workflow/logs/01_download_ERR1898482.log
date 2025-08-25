@@ -1,0 +1,15 @@
+[INFO] Downloading ERR1898482
+2025-08-24T20:13:20 prefetch.3.2.1: 1) Resolving 'ERR1898482'...
+2025-08-24T20:13:22 prefetch.3.2.1: Current preference is set to retrieve SRA Normalized Format files with full base quality scores
+2025-08-24T20:13:22 prefetch.3.2.1: 1) Downloading 'ERR1898482'...
+2025-08-24T20:13:22 prefetch.3.2.1:  SRA Normalized Format file is being retrieved
+2025-08-24T20:13:22 prefetch.3.2.1:  Downloading via HTTPS...
+2025-08-24T20:13:35 prefetch.3.2.1:  HTTPS download succeed
+2025-08-24T20:13:36 prefetch.3.2.1:  'ERR1898482' is valid: 590943401 bytes were streamed from 590933263
+2025-08-24T20:13:36 prefetch.3.2.1: 1) 'ERR1898482' was downloaded successfully
+2025-08-24T20:13:36 prefetch.3.2.1: 1) Resolving 'ERR1898482's dependencies...
+2025-08-24T20:13:36 prefetch.3.2.1: 'ERR1898482' has 0 unresolved dependencies
+spots read      : 14,780,600
+reads read      : 29,561,200
+reads written   : 29,561,200
+[DONE] FASTQs are in data/raw

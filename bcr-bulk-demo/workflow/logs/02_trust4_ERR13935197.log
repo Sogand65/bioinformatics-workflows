@@ -1,0 +1,88 @@
+[INFO] Running TRUST4 on ERR13935197
+[Sun Aug 24 15:39:48 2025] TRUST4 v1.1.6.1-r599 begins.
+[Sun Aug 24 15:39:48 2025] SYSTEM CALL: /Users/sogand/miniforge3/envs/bcr-demo/bin/fastq-extractor -t 1 -f /Users/sogand/Desktop/bioinformatics/TRUST4/hg38_bcrtcr.fa -o data/processed/ERR13935197_toassemble  -1 data/raw/ERR13935197_1.fastq.gz -2 data/raw/ERR13935197_2.fastq.gz
+[Sun Aug 24 15:39:48 2025] Start to extract candidate reads from read files.
+[Sun Aug 24 15:58:24 2025] Finish extracting reads.
+[Sun Aug 24 15:58:24 2025] SYSTEM CALL: /Users/sogand/miniforge3/envs/bcr-demo/bin/trust4  -f /Users/sogand/Desktop/bioinformatics/TRUST4/hg38_bcrtcr.fa -o data/processed/ERR13935197 -1 data/processed/ERR13935197_toassemble_1.fq -2 data/processed/ERR13935197_toassemble_2.fq
+[Sun Aug 24 15:58:24 2025] Start to assemble reads.
+[Sun Aug 24 15:58:24 2025] Read in and count kmers for 100000 reads.
+[Sun Aug 24 15:58:24 2025] Read in and count kmers for 200000 reads.
+[Sun Aug 24 15:58:25 2025] Read in and count kmers for 300000 reads.
+[Sun Aug 24 15:58:25 2025] Read in and count kmers for 400000 reads.
+[Sun Aug 24 15:58:26 2025] Read in and count kmers for 500000 reads.
+[Sun Aug 24 15:58:26 2025] Read in and count kmers for 600000 reads.
+[Sun Aug 24 15:58:27 2025] Read in and count kmers for 700000 reads.
+[Sun Aug 24 15:58:27 2025] Read in and count kmers for 800000 reads.
+[Sun Aug 24 15:58:28 2025] Read in and count kmers for 900000 reads.
+[Sun Aug 24 15:58:28 2025] Read in and count kmers for 1000000 reads.
+[Sun Aug 24 15:58:29 2025] Read in and count kmers for 1100000 reads.
+[Sun Aug 24 15:58:30 2025] Read in and count kmers for 1200000 reads.
+[Sun Aug 24 15:58:30 2025] Read in and count kmers for 1300000 reads.
+[Sun Aug 24 15:58:31 2025] Read in and count kmers for 1400000 reads.
+[Sun Aug 24 15:58:31 2025] Read in and count kmers for 1500000 reads.
+[Sun Aug 24 15:58:32 2025] Read in and count kmers for 1600000 reads.
+[Sun Aug 24 15:58:32 2025] Read in and count kmers for 1700000 reads.
+[Sun Aug 24 15:58:33 2025] Read in and count kmers for 1800000 reads.
+[Sun Aug 24 15:58:34 2025] Read in and count kmers for 1900000 reads.
+[Sun Aug 24 15:58:34 2025] Read in and count kmers for 2000000 reads.
+[Sun Aug 24 15:58:35 2025] Read in and count kmers for 2100000 reads.
+[Sun Aug 24 15:58:35 2025] Read in and count kmers for 2200000 reads.
+[Sun Aug 24 15:58:36 2025] Read in and count kmers for 2300000 reads.
+[Sun Aug 24 15:58:37 2025] Read in and count kmers for 2400000 reads.
+[Sun Aug 24 15:58:53 2025] Found 2178078 reads.
+[Sun Aug 24 15:58:54 2025] Finish sorting the reads.
+[Sun Aug 24 15:59:54 2025] Finish rough annotations.
+[Sun Aug 24 15:59:54 2025] Processed 100000 reads (5978 are used for assembly).
+[Sun Aug 24 15:59:54 2025] Processed 200000 reads (57251 are used for assembly).
+[Sun Aug 24 15:59:54 2025] Processed 300000 reads (63028 are used for assembly).
+[Sun Aug 24 15:59:54 2025] Processed 400000 reads (71381 are used for assembly).
+[Sun Aug 24 15:59:54 2025] Processed 500000 reads (76055 are used for assembly).
+[Sun Aug 24 15:59:54 2025] Processed 600000 reads (93746 are used for assembly).
+[Sun Aug 24 15:59:54 2025] Processed 700000 reads (106039 are used for assembly).
+[Sun Aug 24 15:59:54 2025] Processed 800000 reads (120866 are used for assembly).
+[Sun Aug 24 15:59:54 2025] Processed 900000 reads (127977 are used for assembly).
+[Sun Aug 24 15:59:55 2025] Processed 1000000 reads (151822 are used for assembly).
+[Sun Aug 24 15:59:55 2025] Processed 1100000 reads (202148 are used for assembly).
+[Sun Aug 24 15:59:56 2025] Processed 1200000 reads (264629 are used for assembly).
+[Sun Aug 24 16:00:00 2025] Processed 1300000 reads (333309 are used for assembly).
+[Sun Aug 24 16:00:07 2025] Processed 1400000 reads (407712 are used for assembly).
+[Sun Aug 24 16:00:14 2025] Processed 1500000 reads (482851 are used for assembly).
+[Sun Aug 24 16:00:22 2025] Processed 1600000 reads (557021 are used for assembly).
+[Sun Aug 24 16:00:31 2025] Processed 1700000 reads (629129 are used for assembly).
+[Sun Aug 24 16:00:41 2025] Processed 1800000 reads (696972 are used for assembly).
+[Sun Aug 24 16:00:50 2025] Processed 1900000 reads (756932 are used for assembly).
+[Sun Aug 24 16:01:02 2025] Processed 2000000 reads (818226 are used for assembly).
+[Sun Aug 24 16:01:25 2025] Processed 2100000 reads (897128 are used for assembly).
+[Sun Aug 24 16:01:40 2025] Assembled 931316 reads.
+[Sun Aug 24 16:01:40 2025] Try to rescue 15484 reads for assembly.
+[Sun Aug 24 16:01:51 2025] Rescued 2383 reads.
+[Sun Aug 24 16:01:59 2025] Processed 100000 reads for extension.
+[Sun Aug 24 16:02:10 2025] Processed 200000 reads for extension.
+[Sun Aug 24 16:02:22 2025] Processed 300000 reads for extension.
+[Sun Aug 24 16:02:32 2025] Processed 400000 reads for extension.
+[Sun Aug 24 16:02:42 2025] Processed 500000 reads for extension.
+[Sun Aug 24 16:02:52 2025] Processed 600000 reads for extension.
+[Sun Aug 24 16:03:01 2025] Processed 700000 reads for extension.
+[Sun Aug 24 16:03:10 2025] Processed 800000 reads for extension.
+[Sun Aug 24 16:03:24 2025] Processed 900000 reads for extension.
+[Sun Aug 24 16:03:29 2025] Extend assemblies by mate pair information.
+[Sun Aug 24 16:03:34 2025] Remove redundant assemblies.
+[Sun Aug 24 16:03:40 2025] Finish assembly.
+[Sun Aug 24 16:03:41 2025] SYSTEM CALL: /Users/sogand/miniforge3/envs/bcr-demo/bin/annotator -f /Users/sogand/Desktop/bioinformatics/TRUST4/human_IMGT+C.fa -a data/processed/ERR13935197_final.out -t 1 -o data/processed/ERR13935197  -r data/processed/ERR13935197_assembled_reads.fa --airrAlignment > data/processed/ERR13935197_annot.fa
+[Sun Aug 24 16:03:41 2025] Start to annotate assemblies.
+[Sun Aug 24 16:04:23 2025] Start to realign reads for CDR3 analysis.
+[Sun Aug 24 16:04:35 2025] Realigned 100000 reads.
+[Sun Aug 24 16:04:49 2025] Realigned 200000 reads.
+[Sun Aug 24 16:05:04 2025] Realigned 300000 reads.
+[Sun Aug 24 16:05:17 2025] Realigned 400000 reads.
+[Sun Aug 24 16:05:28 2025] Realigned 500000 reads.
+[Sun Aug 24 16:05:40 2025] Realigned 600000 reads.
+[Sun Aug 24 16:05:51 2025] Realigned 700000 reads.
+[Sun Aug 24 16:06:02 2025] Realigned 800000 reads.
+[Sun Aug 24 16:06:16 2025] Realigned 900000 reads.
+[Sun Aug 24 16:06:21 2025] Compute CDR3 abundance.
+[Sun Aug 24 16:06:21 2025] Finish annotation.
+[Sun Aug 24 16:06:21 2025] SYSTEM CALL: perl /Users/sogand/miniforge3/envs/bcr-demo/bin/trust-simplerep.pl data/processed/ERR13935197_cdr3.out  > data/processed/ERR13935197_report.tsv
+[Sun Aug 24 16:06:21 2025] SYSTEM CALL: perl /Users/sogand/miniforge3/envs/bcr-demo/bin/trust-airr.pl data/processed/ERR13935197_report.tsv data/processed/ERR13935197_annot.fa --airr-align data/processed/ERR13935197_airr_align.tsv > data/processed/ERR13935197_airr.tsv
+[Sun Aug 24 16:06:22 2025] TRUST4 finishes.
+[DONE] TRUST4 finished. Outputs in data/processed/ERR13935197

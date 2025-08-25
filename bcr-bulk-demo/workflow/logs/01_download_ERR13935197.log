@@ -1,0 +1,15 @@
+[INFO] Downloading ERR13935197
+2025-08-24T20:15:30 prefetch.3.2.1: 1) Resolving 'ERR13935197'...
+2025-08-24T20:15:31 prefetch.3.2.1: Current preference is set to retrieve SRA Normalized Format files with full base quality scores
+2025-08-24T20:15:31 prefetch.3.2.1: 1) Downloading 'ERR13935197'...
+2025-08-24T20:15:31 prefetch.3.2.1:  SRA Normalized Format file is being retrieved
+2025-08-24T20:15:31 prefetch.3.2.1:  Downloading via HTTPS...
+2025-08-24T20:16:25 prefetch.3.2.1:  HTTPS download succeed
+2025-08-24T20:16:29 prefetch.3.2.1:  'ERR13935197' is valid: 2174128702 bytes were streamed from 2174127111
+2025-08-24T20:16:29 prefetch.3.2.1: 1) 'ERR13935197' was downloaded successfully
+2025-08-24T20:16:29 prefetch.3.2.1: 1) Resolving 'ERR13935197's dependencies...
+2025-08-24T20:16:29 prefetch.3.2.1: 'ERR13935197' has 0 unresolved dependencies
+spots read      : 26,113,452
+reads read      : 52,226,904
+reads written   : 52,226,904
+[DONE] FASTQs are in data/raw
