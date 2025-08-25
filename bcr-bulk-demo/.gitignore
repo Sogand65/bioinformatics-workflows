@@ -1,8 +1,15 @@
+# OS / editor junk
+.DS_Store
+
+# Environment and quickcheck
 environment_full.yml
 trust4_quickcheck.ipynb
-.DS_Store
-bcr-bulk-demo/data/raw/
-bcr-bulk-demo/data/processed/
+
+# Ignore data + results (raw, processed, etc.)
+bcr-bulk-demo/data/
+bcr-bulk-demo/results/
+
+# Common big file types
 *.fastq
 *.fastq.gz
 *.fq
