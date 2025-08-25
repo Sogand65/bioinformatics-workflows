@@ -6,8 +6,8 @@ environment_full.yml
 trust4_quickcheck.ipynb
 
 # Ignore data + results (raw, processed, etc.)
-bcr-bulk-demo/data/
-bcr-bulk-demo/results/
+data/
+results/
 
 # Common big file types
 *.fastq
