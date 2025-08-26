@@ -1,0 +1,22 @@
+# data & outputs
+data/**
+!data/README.md
+results/**
+!results/.gitkeep
+logs/**
+reports/**
+
+# notebooks
+.ipynb_checkpoints/
+
+# OS/editors
+.DS_Store
+*.swp
+
+# envs
+.venv/
+.env/
+*.lock
+
+# misc
+__pycache__/
